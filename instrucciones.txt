@@ -1,0 +1,19 @@
+IMPORTANTE:
+https://www.youtube.com/watch?v=kgxfdTh9lz0&t=302s
+https://gist.github.com/yufengg/984ed8c02d95ce7e95e1c39da906ee04
+https://towardsdatascience.com/getting-started-with-automl-vision-alpha-ba769121235c
+
+https://www.youtube.com/watch?v=YpH6lc8X8BY video to jpeg
+https://www.ffmpeg.org/download.html
+
+https://www.youtube.com/watch?v=YpH6lc8X8BY
+To convert viedeo to png images you need to run this command:
+ ffmpeg -ss 00:10 -i video-filename.mp4 -t 00:03 images-filename_%03d.png 
+where 
+-ss defines the offset from the beginning of the video 
+-t specifies how long the fragment should be. 
+-i is to provide the input video file name. %03d 
+- indicated to use 3 digits number. For example, the output will be like this: images-filename_001d.png images-filename_002d.png images-filename_003d.png
+
+ffmpeg -ss 00:00 -i IMG_6730\ copy.mov  -t 00:03 crisgym_%03d.png
+
